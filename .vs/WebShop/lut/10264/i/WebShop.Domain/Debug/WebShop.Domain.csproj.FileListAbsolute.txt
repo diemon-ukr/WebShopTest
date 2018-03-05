@@ -1,0 +1,6 @@
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.Domain\bin\Debug\WebShop.Domain.dll.config
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.Domain\bin\Debug\WebShop.Domain.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.Domain\bin\Debug\WebShop.Domain.pdb
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.Domain\Debug\WebShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.Domain\Debug\WebShop.Domain.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.Domain\Debug\WebShop.Domain.pdb

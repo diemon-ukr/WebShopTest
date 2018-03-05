@@ -1,0 +1,47 @@
+﻿@model WebShop.Domain.Entities.Product
+
+@{
+    ViewBag.Title = "Админ панель: редактирование товара";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Редактирование товара «@Model.Name»</h2>
+
+@using (Html.BeginForm("EditProduct", "Admin"))
+{
+    //Простая форма редактирования
+    @*@Html.EditorForModel()
+    <input type="submit" value="Сохранить" />
+    @Html.ActionLink("Отменить изменения и вернуться к списку", "ProductsList")*@
+
+    <div class="panel-body">
+        @Html.HiddenFor(m => m.ProductId)
+        @foreach (var property in ViewData.ModelMetadata.Properties)
+        {
+            if (property.PropertyName != "ProductId")
+            {
+                <div class="form-group">
+                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                    @if (property.PropertyName == "Description")
+                        {
+                        @Html.TextArea(property.PropertyName, null,
+                                new { @class = "form-control", rows = 5 })
+                    }
+                    else
+                    {
+                        @Html.TextBox(property.PropertyName, null,
+                                new { @class = "form-control" })
+                    }
+                    @Html.ValidationMessage(property.PropertyName)
+                </div>
+            }
+        }
+    </div>
+    <div class="panel-footer">
+        <input type="submit" value="Сохранить" class="btn btn-primary" />
+        @Html.ActionLink("Отменить изменения и вернуться к списку", "ProductsList", null, new
+        {
+            @class = "btn btn-default"
+        })
+    </div>
+}

@@ -1,0 +1,11 @@
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\ApplicationInsights.config
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\WebShop.UnitTests.dll.config
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\WebShop.UnitTests.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.UnitTests\bin\Debug\WebShop.UnitTests.pdb
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.UnitTests\Debug\WebShop.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.UnitTests\Debug\WebShop.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.UnitTests\Debug\WebShop.UnitTests.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.UnitTests\Debug\WebShop.UnitTests.pdb

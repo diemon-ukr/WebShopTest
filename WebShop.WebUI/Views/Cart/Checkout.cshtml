@@ -1,0 +1,38 @@
+﻿@model WebShop.Domain.Entities.Order
+
+@{
+    ViewBag.Title = "GameStore: форма заказа";
+}
+
+<h2>Оформить заказ сейчас</h2>
+<p>Пожалуйста введите ваши контактные данные для оформления заказа!</p>
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary();
+    <h3>Данные</h3>
+    <div class="form-group">
+        <label>Ваше имя:</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    </div>
+
+    <h3>Адрес доставки</h3>
+    <div class="form-group">
+        <label>Адрес:</label>
+        @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+    </div>
+
+    <h3>Опции</h3>
+    <div class="checkbox">
+        <label>
+            @Html.EditorFor(x => x.GiftWrap)
+            Использовать подарочную упаковку?
+        </label>
+    </div>
+
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Обработать заказ" />
+    </div>
+}
+

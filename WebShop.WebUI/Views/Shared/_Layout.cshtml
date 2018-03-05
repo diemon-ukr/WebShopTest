@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - WebShop</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    @*<link href="~/Content/bootstrap-theme.css" rel="stylesheet" />*@
+    <style>
+        .navbar-right {
+            float: right !important;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+    </style>
+
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("WebShop", "List", "Product", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "List", "Product")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Admin panel", "Index", "Admin")</li>
+                </ul>
+                @Html.Action("Summary", "Cart")
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        <div class="visible-xs">
+            @Html.Action("Menu", "Nav", new { horizontalNav = true })
+        </div>
+        <div class="row panel">
+            <div id="categories" class="col-sm-3 hidden-xs">
+                @Html.Action("Menu", "Nav")
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                @RenderBody()
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - WebShop</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

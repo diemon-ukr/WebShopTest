@@ -1,0 +1,8 @@
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.WebUI\bin\ApplicationInsights.config
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.WebUI\bin\WebShop.WebUI.dll.config
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.WebUI\bin\WebShop.WebUI.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\b\WebShop.WebUI\bin\WebShop.WebUI.pdb
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.WebUI\Debug\WebShop.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.WebUI\Debug\WebShop.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.WebUI\Debug\WebShop.WebUI.dll
+C:\Users\diemo\Documents\Visual Studio 2017\Projects\asp.net\WebShop\.vs\WebShop\lut\0\i\WebShop.WebUI\Debug\WebShop.WebUI.pdb

@@ -1,0 +1,59 @@
+﻿@using WebShop.WebUI.Models
+@model OrdersListViewModel
+
+@{
+    ViewBag.Title = "OrdersList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@if (TempData["message"] != null)
+{
+    <div class="alert alert-success">@TempData["message"]</div>
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список заказов</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th class="text-right">Имя</th>
+                <th class="text-right">Адрес</th>
+                <th class="text-center">Подарочная упаковка</th>
+                <th class="text-center">Отправлено</th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model.Orders)
+            {
+                <tr>
+                    <td class="text-right">@item.OrderId</td>
+                    <td class="text-right">@item.Name</td>
+                    <td class="text-right">@item.Address</td>
+                    <td class="text-center">@Html.CheckBoxFor(m => item.GiftWrap, new
+                                      { disabled = "disabled", @readonly = "readonly" })</td>
+                    <td class="text-center">@Html.CheckBoxFor(m => item.Dispatched, new
+                                      { disabled = "disabled", @readonly = "readonly" })</td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("OrderDetails", "Admin"))
+                        {
+                            @Html.Hidden("OrderId", item.OrderId)
+                            <input type="submit"
+                                   class="btn btn-default btn-xs"
+                                   value="Детали" />
+                        }
+                    </td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("OrderDispatched", "Admin"))
+                        {
+                            @Html.Hidden("OrderId", item.OrderId)
+                            <input type="submit"
+                                   class="btn btn-default btn-xs"
+                                   value="Отправить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
